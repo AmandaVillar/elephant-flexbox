@@ -1,0 +1,36 @@
+body {
+    color: #707070;
+    font-size: 1.125rem;
+}
+
+/* Typography */
+
+h1 {
+    color: #312614;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* Image */
+
+img {
+    width: 100%;
+}
+
+/* Boxes */
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+.columns {
+    display: flex;
+}
+
+.col {
+    margin: 2em;
+}
