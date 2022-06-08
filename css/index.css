@@ -50,13 +50,25 @@ img {
 }
 
 .col-1 {
-    width: 25%;
+    width: 20%;
 }
 
 .col-2 {
-    width: 50%;
+    width: 45%;
 }
 
 .col-3 {
-    width: 75%;
+    width: 70%;
+}
+
+@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .col-1,
+    .col-2,
+    .col-3 {
+        width: 95%;
+    }
 }
